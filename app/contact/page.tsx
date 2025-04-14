@@ -4,8 +4,9 @@ function Contact() {
         <div className="text-4xl font-semibold mb-6">Contact</div>
         <hr className="border-t my-4 border-gray-300" />
         <div className="text-xl">
-            If you'd like to get in touch, you can reach me using the following methods. Please note, that I'm currently available for freelance projects.
+            If you&#39;d like to get in touch, you can reach me using the following methods. Please note, that I&#39;m currently available for freelance projects.
         </div>
+
         <div className="text-xl flex flex-col gap-5 font-semibold md:grid grid-cols-2 md:gap-6 mt-6">
           <div>
             <div className="text-gray-800">Email</div>
