@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import {Inter} from 'next/font/google';
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,9 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased ${InterFont.variable} bg-[#F8FAFC]`}
+        className={`antialiased ${InterFont.variable} bg-[#F8FAFC] w-full px-4 flex flex-col items-center justify-center mx-auto my-12`}
       >
-        {children}
+        <div className="w-full flex flex-col gap-16 max-w-[600px]">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
