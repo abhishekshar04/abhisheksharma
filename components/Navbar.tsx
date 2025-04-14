@@ -15,7 +15,6 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6">
-          <Link href="/info" className="hover:underline">Information</Link>
           <Link href="/contact" className="hover:underline">Contact</Link>
         </div>
 
